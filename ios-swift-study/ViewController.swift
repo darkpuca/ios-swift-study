@@ -8,11 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
+    let myButton = UIButton(frame: CGRect(x: 0, y: 0, width: 100, height: 50))
 
-    override func viewDidLoad() {
+
+    @IBOutlet weak var testButton: UIButton!
+        
+
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        myButton.addTarget(self, action: "tappedButton:", forControlEvents:.TouchUpInside)
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +29,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    // MARK: - functions
+    @IBAction func tappedButton(sender: UIButton!)
+    {
+        println("tapped button")
+        
+        let alertView = UIAlertView(title: "test app", message: "test message", delegate: nil, cancelButtonTitle: "closeee")
+        alertView.show()
+    }
+    
+    
+    
 
 }
 
