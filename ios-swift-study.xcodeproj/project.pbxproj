@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1A1058D21A77735200AAF7EA /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1058D11A77735200AAF7EA /* TipCalculatorModel.swift */; };
+		1A19812E1A7876AE00CFD1B9 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A19812D1A7876AE00CFD1B9 /* MyTableViewController.swift */; };
+		1A1981301A7876F400CFD1B9 /* MyPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A19812F1A7876F400CFD1B9 /* MyPopupViewController.swift */; };
+		1A1981331A787A9700CFD1B9 /* TableItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1981321A787A9700CFD1B9 /* TableItemModel.swift */; };
 		1AA421DB1A7637F600CB59F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA421DA1A7637F600CB59F6 /* AppDelegate.swift */; };
 		1AA421DE1A7637F600CB59F6 /* ios_swift_study.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AA421DC1A7637F600CB59F6 /* ios_swift_study.xcdatamodeld */; };
 		1AA421E01A7637F600CB59F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA421DF1A7637F600CB59F6 /* ViewController.swift */; };
@@ -31,6 +34,9 @@
 /* Begin PBXFileReference section */
 		1A1058D01A776B7400AAF7EA /* SwiftTutorial.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = SwiftTutorial.playground; path = ../SwiftTutorial.playground; sourceTree = "<group>"; };
 		1A1058D11A77735200AAF7EA /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
+		1A19812D1A7876AE00CFD1B9 /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		1A19812F1A7876F400CFD1B9 /* MyPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPopupViewController.swift; sourceTree = "<group>"; };
+		1A1981321A787A9700CFD1B9 /* TableItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableItemModel.swift; sourceTree = "<group>"; };
 		1AA421D51A7637F600CB59F6 /* ios-swift-study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-swift-study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA421D91A7637F600CB59F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AA421DA1A7637F600CB59F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +80,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1A1981311A787A7D00CFD1B9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1A1058D11A77735200AAF7EA /* TipCalculatorModel.swift */,
+				1A1981321A787A9700CFD1B9 /* TableItemModel.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		1A1981341A787C1600CFD1B9 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A19812D1A7876AE00CFD1B9 /* MyTableViewController.swift */,
+				1A19812F1A7876F400CFD1B9 /* MyPopupViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
 		1AA421CC1A7637F600CB59F6 = {
 			isa = PBXGroup;
 			children = (
@@ -98,9 +122,10 @@
 			isa = PBXGroup;
 			children = (
 				1A1058D01A776B7400AAF7EA /* SwiftTutorial.playground */,
+				1A1981341A787C1600CFD1B9 /* controller */,
+				1A1981311A787A7D00CFD1B9 /* model */,
 				1AA421DA1A7637F600CB59F6 /* AppDelegate.swift */,
 				1AA421DF1A7637F600CB59F6 /* ViewController.swift */,
-				1A1058D11A77735200AAF7EA /* TipCalculatorModel.swift */,
 				1AA421E11A7637F600CB59F6 /* Main.storyboard */,
 				1AA421E41A7637F600CB59F6 /* Images.xcassets */,
 				1AA421E61A7637F600CB59F6 /* LaunchScreen.xib */,
@@ -282,7 +307,10 @@
 				1AA421E01A7637F600CB59F6 /* ViewController.swift in Sources */,
 				1AA421DB1A7637F600CB59F6 /* AppDelegate.swift in Sources */,
 				1AA421DE1A7637F600CB59F6 /* ios_swift_study.xcdatamodeld in Sources */,
+				1A19812E1A7876AE00CFD1B9 /* MyTableViewController.swift in Sources */,
 				1A1058D21A77735200AAF7EA /* TipCalculatorModel.swift in Sources */,
+				1A1981301A7876F400CFD1B9 /* MyPopupViewController.swift in Sources */,
+				1A1981331A787A9700CFD1B9 /* TableItemModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
